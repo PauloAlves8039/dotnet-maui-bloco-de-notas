@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlocoDeNotas.App", "src\BlocoDeNotas.App\BlocoDeNotas.App.csproj", "{26E08B45-9F00-444F-9096-807E94C5A9AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26E08B45-9F00-444F-9096-807E94C5A9AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E08B45-9F00-444F-9096-807E94C5A9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E08B45-9F00-444F-9096-807E94C5A9AE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{26E08B45-9F00-444F-9096-807E94C5A9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E08B45-9F00-444F-9096-807E94C5A9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E08B45-9F00-444F-9096-807E94C5A9AE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EACDBCE7-7BF8-4A8E-9768-99B62537487D}
+	EndGlobalSection
+EndGlobal
