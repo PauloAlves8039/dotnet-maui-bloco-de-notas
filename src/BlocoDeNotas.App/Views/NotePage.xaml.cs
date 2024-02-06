@@ -1,4 +1,4 @@
-namespace BlocoDeNotas.App;
+namespace BlocoDeNotas.App.Views;
 
 public partial class NotePage : ContentPage
 {
