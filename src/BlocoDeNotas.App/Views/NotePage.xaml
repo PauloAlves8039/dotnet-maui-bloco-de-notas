@@ -6,7 +6,8 @@
     <VerticalStackLayout Spacing="10" Margin="10">
         <Editor x:Name="TextEditor"
                 Placeholder="Escreva a sua nota"
-                HeightRequest="100" />
+                HeightRequest="100" 
+                Text="{Binding Text}"/>
         <Grid ColumnDefinitions="*,*" ColumnSpacing="4">
             <Button 
                 x:Name="btnSalvar"
