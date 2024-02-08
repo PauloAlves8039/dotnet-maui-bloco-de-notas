@@ -4,14 +4,12 @@ namespace BlocoDeNotas.App.Views;
 
 public partial class NotePage : ContentPage
 {
-    string fileName = Path.Combine(FileSystem.AppDataDirectory, "nota.txt");
-    
     public NotePage()
 	{
 		InitializeComponent();
 
-        string appDataPath = FileSystem.AppDataDirectory;
-        string randomFileName = $"{Path.GetRandomFileName()}.notes.txt";
+        var appDataPath = FileSystem.AppDataDirectory;
+        var randomFileName = $"{Path.GetRandomFileName()}.notes.txt";
         
         LoadNote(Path.Combine(appDataPath, randomFileName));
     }
@@ -35,15 +33,15 @@ public partial class NotePage : ContentPage
         }
     }
 
-    public void LoadNote(string filename) 
+    public void LoadNote(string fileName) 
     {
         var note = new Note();
         note.Filename = fileName;
 
         if (File.Exists(fileName))
         {
-            note.Date = File.GetCreationTime(filename);
-            note.Text = File.ReadAllText(filename);
+            note.Date = File.GetCreationTime(fileName);
+            note.Text = File.ReadAllText(fileName);
         }
 
         BindingContext = note;
