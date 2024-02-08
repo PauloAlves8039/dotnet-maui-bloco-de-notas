@@ -14,4 +14,9 @@ public partial class AllNotesPage : ContentPage
     {
         ((AllNotes)BindingContext).LoadNotes();
     }
+
+    private async void ItemAdd_Clicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync(nameof(NotePage));
+    }
 }

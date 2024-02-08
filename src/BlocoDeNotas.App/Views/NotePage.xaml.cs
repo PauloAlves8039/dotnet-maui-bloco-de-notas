@@ -14,15 +14,17 @@ public partial class NotePage : ContentPage
         LoadNote(Path.Combine(appDataPath, randomFileName));
     }
 
-    private void btnSalvar_Clicked(object sender, EventArgs e)
+    private async void btnSalvar_Clicked(object sender, EventArgs e)
     {
         if (BindingContext is Note note) 
         {
             File.WriteAllText(note.Filename, TextEditor.Text);
         }
+
+        await Shell.Current.GoToAsync("..");
     }
 
-    private void btnExcluir_Clicked(object sender, EventArgs e)
+    private async void btnExcluir_Clicked(object sender, EventArgs e)
     {
         if (BindingContext is Note note) 
         {
@@ -31,6 +33,8 @@ public partial class NotePage : ContentPage
                 File.Delete(note.Filename);
             }
         }
+
+        await Shell.Current.GoToAsync("..");
     }
 
     public void LoadNote(string fileName) 
