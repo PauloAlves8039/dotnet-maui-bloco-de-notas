@@ -15,7 +15,8 @@
         x:Name="notesCollection"
         ItemsSource="{Binding Notes}"
         Margin="20"
-        SelectionMode="Single">
+        SelectionMode="Single"
+        SelectionChanged="notesCollection_SelectionChanged">
 
         <CollectionView.ItemsLayout>
             <LinearItemsLayout Orientation="Vertical" ItemSpacing="10" />
