@@ -1,4 +1,4 @@
-namespace BlocoDeNotas.App;
+namespace BlocoDeNotas.App.Views;
 
 public partial class AboutPage : ContentPage
 {
@@ -9,6 +9,9 @@ public partial class AboutPage : ContentPage
 
     private async void btnSobre_Clicked(object sender, EventArgs e)
     {
-        await Launcher.Default.OpenAsync("https://github.com/PauloAlves8039");
+        if (BindingContext is Models.About about) 
+        {
+            await Launcher.Default.OpenAsync(about.MoreInfoUrl);
+        }
     }
 }
