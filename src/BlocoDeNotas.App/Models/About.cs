@@ -9,9 +9,9 @@
 
         public About()
         {
-            Title = AppInfo.Name;
+            Title = "Bloco de Notas";
             Version = AppInfo.VersionString;
-            Description = "Este app tem como objetivo simular um bloco de notas no qual você ]" +
+            Description = "Este app tem como objetivo simular um bloco de notas no qual você " +
                           "poderá anotar tudo o que quiser.";
             MoreInfoUrl = "https://github.com/PauloAlves8039";
         }
