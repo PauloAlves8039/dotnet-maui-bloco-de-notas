@@ -7,7 +7,16 @@
 
 ## :computer: Projeto
 
-Aplicação mobile para simular um bloco de notas.
+Aplicação mobile para simular um bloco de notas, o código fonte do projeto foi baseado no curso [.NET MAUI - Desenvolvimento de Aplicativos Desktop e Mobile](https://www.udemy.com/course/desenvolvimento-de-aplicativos-com-net-maui/).
+
+## :blue_book: Regra de Negócio
+
+Funcionalidade implementadas nessa aplicação:
+
+- Adicionar notas.
+- Selecionar nota.
+- Atualizar nota.
+- Excluir nota.
 
 ## ✔️ Recursos Utilizados
 
@@ -15,11 +24,23 @@ Aplicação mobile para simular um bloco de notas.
 - `.NET MAUI`
 - `C#`
 
+## :white_check_mark: Decisões Técnicas
+
+- Procurei manter a mesma estrutura apresentada no curso.
+- Apliquei alteração para a visualização do título.
+- Adicionei uma imagem para representar o meu perfil.
+
 ## :floppy_disk: Clonar Repositório
 
 ```bash
 git clone https://github.com/PauloAlves8039/dotnet-maui-bloco-de-notas.git
 ```
+
+## :camera: Screenshots
+
+<p align="center"> <img src="https://github.com/PauloAlves8039/dotnet-maui-bloco-de-notas/blob/master/src/BlocoDeNotas.App/Resources/Images/screenshot_1.png" style="width:400px;" /> </p>
+<p align="center"> <img src="https://github.com/PauloAlves8039/dotnet-maui-bloco-de-notas/blob/master/src/BlocoDeNotas.App/Resources/Images/screenshot_2.png" style="width:400px;" /> </p>
+<p align="center"> <img src="https://github.com/PauloAlves8039/dotnet-maui-bloco-de-notas/blob/master/src/BlocoDeNotas.App/Resources/Images/screenshot_3.png" style="width:400px;" /> </p>
 
 ## :boy: Author
 
